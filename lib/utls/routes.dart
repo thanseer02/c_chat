@@ -1,6 +1,9 @@
+import 'package:base_project/features/splash_screen/view/splash_screen.dart';
 import 'package:flutter/material.dart';
 
-Map<String, Widget Function(BuildContext context)> appRoutes() => {};
+Map<String, Widget Function(BuildContext context)> appRoutes() => {
+      SplashScreen.routeName: (context) => const SplashScreen(),
+    };
 Widget? _getScreen(RouteSettings settings) {
   switch (settings.name) {
     default:

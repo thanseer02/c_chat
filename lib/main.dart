@@ -1,4 +1,4 @@
-import 'package:base_project/features/splash_screen/view/spalsh_screen.dart';
+import 'package:base_project/features/splash_screen/view/splash_screen.dart';
 import 'package:base_project/utls/routes.dart';
 import 'package:base_project/utls/theme.dart';
 import 'package:flutter/material.dart';
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: appLightTheme,
-      initialRoute: SpashScreen.routname,
+      initialRoute: SplashScreen.routeName,
       onGenerateRoute: onAppGenerateRoute(),
       routes: appRoutes(),
     );
