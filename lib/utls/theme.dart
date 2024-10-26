@@ -1,3 +1,4 @@
+import 'package:base_project/utls/colors.dart';
 import 'package:flutter/material.dart';
 
 TextTheme _textTheme = const TextTheme();
@@ -9,5 +10,6 @@ ThemeData appLightTheme = ThemeData(
   hoverColor: Colors.transparent,
   splashColor: Colors.transparent,
   highlightColor: Colors.transparent,
-  useMaterial3: false
+  appBarTheme: AppBarTheme(backgroundColor: colorWhite),
+  useMaterial3: false,
 );

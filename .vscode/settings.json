@@ -1,3 +1,18 @@
 {
-  "dart.flutterSdkPath": ".fvm/versions/3.22.2"
+  "dart.flutterSdkPath": ".fvm/versions/3.22.2",
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "PROD-Flavor",
+      "program": "[project-folder]/lib/main_prod.dart",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "DEV-Flavor",
+      "program": "[project-folder]/lib/main_dev.dart",
+      "request": "launch",
+      "type": "dart"
+    }
+  ]
 }
